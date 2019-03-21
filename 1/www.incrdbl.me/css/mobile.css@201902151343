@@ -1,0 +1,132 @@
+body, .b-app-i, .b-about-i, .b-contacts-i { width: 100%; max-width: 100%; min-width: 100%; }
+
+.b-cover { position: fixed; top: 0; left: 0; z-index: 100; display: none; width: 100%; height: 100%; background: rgba(0, 0, 0, .5); }
+.b-cover_menu { background: rgba(0, 0, 0, .6); opacity: 1; }
+
+.b-curtains__item { box-shadow: none; }
+
+.b-head { height: 100px; z-index: 101; }
+.b-head-i { height: 100px; }
+.b-head__menu-ctrl { position: fixed; right: 14px; top: 13px; z-index: 10; display: block; width: 32px; height: 24px; background: url(../images/menu.png) no-repeat; background-size: 32px 48px; }
+.b-head__menu-close { position: fixed; right: 20px; top: 13px; z-index: 10; width: 24px; height: 24px; background: url(../images/menu-close.png) no-repeat; background-size: 24px 24px; }
+.b-head__menu-i { position: fixed; top: 50px; display: none; width: 100%; padding: 40px 0 34px; margin: 0; background: #fff; }
+.b-head__menu__list { margin: 0; padding: 0 0 5px; }
+.b-head__menu__list__item { display: block; padding: 0 20px 18px; }
+.b-head__menu__list__item::after { background: none; }
+.b-head__menu__list__item-i { font-size: 24px; line-height: 28px; color: #00a0c6; }
+
+.b-head__menu__language { display: none; position: relative; top: auto; right: auto; margin: 0 auto; }
+
+.b-head__logo { width: 114px; height: 100px; }
+.b-head__logo-i { width: 114px; height: 100px; transition: none; }
+
+.b-head_smaller { height: 50px; /*box-shadow: none;*/ }
+.b-head_smaller .b-head__logo { width: 100px; height: 50px; margin-top: -4px; }
+.b-head_smaller .b-head__logo-i { width: 100%; height: auto; }
+.b-head_smaller .b-head__menu-ctrl { background-position: 0 -24px; }
+.b-head_smaller .b-head__menu__language { top: auto; }
+
+.b-head_menu { height: 50px; background: #fff; transition: none; }
+.b-head_menu .b-head__logo { width: 100px; height: 50px; transition: none;  margin-top: -4px; }
+.b-head_menu .b-head__logo-i { width: 100%; height: auto; }
+.b-head_menu .b-head__menu-ctrl { background-position: 0 -48px; }
+
+.b-intro { padding: 100px 0 0; }
+.b-intro-i { padding: 20px 0 0; }
+.b-intro__welcome__title { margin: 0; font-size: 36px; line-height: 32px; }
+.b-intro__about { padding:  8px 30px 28px; }
+.b-intro__about__text { margin: 2px 0 0; font-size: 18px; line-height: 24px; outline-offset: -0.1em; }
+.b-intro__stats { padding: 22px 30px 26px; }
+.b-intro__stats__text { margin: 0; font-size: 18px; line-height: 24px; } 
+.b-intro__apps { max-width: 800px; margin: 0 auto; background: url(../images/intro-apps.jpg) 50% 40px no-repeat; background-size: 800px 165px; }
+.b-intro__apps-i { padding: 220px 20px 26px; }
+.b-intro__apps__item { display: block; margin: 0 0 20px; width: 100%; }
+.b-intro__apps__item-i { display: block; width: auto; max-width: 200px; min-width: 150px; height: 58px; border: 3px solid #bee3ec; padding: 16px 0 0 90px; margin: 0 auto; font-size: 18px; line-height: 24px; }
+.b-intro__apps__item__icon { float: left; margin: -20px 0 0 -70px; padding: 16px 0 0; width: auto; height: 49px; }
+
+
+.b-app { padding: 0px 0 0 !important; }
+.b-app-i { position: relative; max-width: auto; min-width: auto; width: 100%; padding-bottom: 30px; }
+.b-app__icon-i { border-bottom: none; padding: 0 20px 33px; }
+.b-app__icon__img { width: 100px; height: 100px; }
+.b-app__name-i { padding-bottom: 9px; }
+.b-app__name__text { font-size: 32px; line-height: 32px;  }
+.b-app__url { padding-bottom: 26px; }
+.b-app__url__text { font-size: 18px; line-height: 24px;}
+.b-app__url__text-i { padding: 6px 0; }
+.b-app__description { position: relative; left: auto; top: auto; width: auto; max-width: 400px; height: auto; margin: 0 auto 16px; padding: 0 10px; background: none; }
+.b-app__description-i { border: 5px solid #b8d1e5; border-radius: 20px; padding: 20px 0 22px; background: #fff; } 
+.b-app__description__title { width: auto; padding: 0 25px; font-size: 20px; line-height: 22px; }
+.b-app__description__text { width: auto; padding: 10px 25px 0; font-size: 15px; line-height: 22px; }
+.b-app__ss { position: absolute; right: auto; left: 50%; width: 489px; height: 406px; margin: 0 0 0 -244px; background-size: cover !important; }
+.b-app__ss-i { padding: 44px 0 0 153px; }
+.b-app__ss__list { width: 181px; height: 322px; }
+.b-app__ss__list-i { width: 181px; height: 322px; }
+.b-app__ss__list__item { width: 100%; height: auto; } 
+.b-app__ss__ctrl { position: relative; z-index: 10; }
+.b-app__ss__ctrl-i { width: 188px; margin: 0; padding: 12px 0 0 153px; }
+.b-app__ss__ctrl__item { width: 14px; margin: 0 3px; }
+.b-app__comments { position: relative; z-index: 1; right: auto; top: auto; clear: both; width: 100%; max-width: 400px; margin: 0 auto; padding: 406px 0 0; }
+.b-app__comments__title { padding: 33px 30px 0; }
+.b-app__comments__item { display: block; width: 100%; margin: 0 0 20px; }
+.b-app__comments__item-i { padding: 0 20px 0 30px; }
+.b-app__comments__item:nth-child(odd) .b-app__comments__item-i { padding-left: 30px; } 
+.b-app__comments__all-i { text-align: center; }
+.b-app__comments__all__item { display: inline-block; width: 228px; margin: 0 30px 15px; }
+.b-app__comments__all__item-i {  }
+.b-app__install { max-width: 440px; margin: 0 auto; padding: 20px 0 0; }
+.b-app__install__title { font-size: 22px; }
+.b-app__install__item { margin-bottom: 10px; }
+.b-app_odd .b-app__description { background: none; }
+.b-app_odd .b-app__description-i { border-color: #0083b2; background: #00a0c6; }
+.b-app_odd .b-app__description__title { padding: 0 25px; color: #fff; }
+.b-app_odd .b-app__description__text { padding: 10px 25px 0; color: #fff; }
+.b-app_en .b-app__description__title { padding: 0 25px; }
+.b-app_en .b-app__description__text { padding: 10px 25px 0; }
+.b-app_en.b-app_odd .b-app__description__title { padding: 0 25px; }
+.b-app_en.b-app_odd .b-app__description__text { padding: 10px 25px 0; }
+
+.b-about { padding: 10px 0 0; }
+.b-about-i { position: relative; max-width: auto; min-width: auto; width: 100%; }
+.b-about__bd-i { border: none; }
+.b-about__img { padding-top: 20px; }
+.b-about__img-i { width: 90%; height: auto; }
+.b-about__description { max-width: 360px; margin: 0 auto; padding: 6px 30px 36px; }
+.b-about__vacancies__intro { max-width: auto; }
+.b-about__slider { width: auto; height: auto; margin: 0 10px 20px; background: none; }
+.b-about__slider-i { width: 100%; max-width: 400px; margin: 0 auto; padding: 36px 0 0; }
+.b-about__slider__list__item { width: 100%; height: auto; }
+.b-about__vacancies__title__text { font-size: 24px; line-height: 30px; outline-offset: -0.1em;  }
+.b-about__vacancies__intro { max-width: 400px; margin: 0 auto; padding: 10px 10px 20px; font-size: 18px; line-height: 24px; }
+.b-about__vacancies__list { padding: 35px 0 0 10px; }
+.b-about__vacancies__list__item { display: block; width: 100%; max-width: 400px; margin: 0 auto 20px; }
+.b-about__vacancies__list__item__title { padding: 0; }
+.b-about__vacancies__list__item__text { padding-right: 0; }
+
+.b-contacts  { padding: 10px 0 0; background: none; }
+.b-contacts-i { position: relative; max-width: auto; min-width: auto; height: auto; }
+.b-contacts__bd-i { border-bottom: none; }
+.b-contacts__form { width: auto; margin: 0 10px; padding: 30px 0 0; }
+.b-contacts__form-i { max-width: 380px; border: 10px solid #000; border-radius: 20px; margin: 0 auto; padding: 0 0 18px; background: #fff; }
+.b-contacts__form__intro { margin: 0; padding: 17px 16px 0; font-size: 24px; line-height: 28px; font-weight: 600; color: #323a39; }
+.b-contacts__form__field { padding: 10px 16px 0; }
+.b-contacts__form__field__label { font-size: 16px; line-height: 22px; }
+.b-contacts__form__field__input { display: block; width: 100%; height: 36px; padding: 0; }
+.b-contacts__form__field__text  { display: block; width: 100%; height: 136px; padding: 0; }
+.b-contacts__form__field_name .b-contacts__form__field__label { float: none; margin-right: 0; line-height: 22px; }
+.b-contacts__form__field_name .b-contacts__form__field__input { float: none; width: 100%; padding: 0; }
+.b-contacts__form__field_phone .b-contacts__form__field__label { float: none; margin-right: 0; line-height: 22px; }
+.b-contacts__form__field_phone .b-contacts__form__field__input { float: none; width: 100%; padding: 0; }
+.b-contacts__form__submit { padding: 20px 0 0; }
+.b-contacts__form__submit-i { width: 230px; padding: 10px 0px; }
+.b-contacts__support { float: none; width: auto; max-width: 320px; padding-top: 50px; margin: 0 auto 50px; text-align: center; }
+.b-contacts__support-i { margin: 0; padding: 32px 0 0; list-style: none; text-align: left; }
+.b-contacts__support__label-i { padding: 4px 16px; font-size: 22px; font-weight: 600; white-space: nowrap; }
+.b-contacts__list { float: none; padding: 60px 0 0; margin: 0 auto 10px; text-align: center; }
+.b-contacts__list__title-i { font-size: 22px; font-weight: 600; }
+.b-contacts__list__item { font-size: 18px; }
+.b-contacts__social { float: none; width: 100%; margin: 0 auto; text-align: center; }
+.b-contacts__social__label-i { padding: 4px 16px; font-size: 22px; font-weight: 600; }
+.b-contacts__social__item { padding: 0 6px 4px; }
+
+.b-popup { position: fixed; top: 40%; left: 50%; z-index: 4000; width: 88%; margin: 0 0 0 -44%; background: #fff; }
