@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/main.css?201902151343" media="all" />
+	<link rel="stylesheet" media="(max-width: 1200px)" href="css/tablet.css?201902151343" />
+	<link rel="stylesheet" media="(max-width: 720px)" href="css/mobile.css?201902151343" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+	<title tkey="title">5.me — здесь рождаются интернет-проекты</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<script src="js/curtain.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/jquery.cycle2.min.js"></script>
+	<script src="js/main.js?201902151343"></script>
+	
+	<script src='https://www.google.com/recaptcha/api.js?render=6LcNv3kUAAAAADOfLI5yx-LkuDk-9UQ4DzDUFK1M'></script>
+	<script>
+		var lang = '';
+		var form_gc;
+		grecaptcha.ready(function() {
+			grecaptcha.execute('6LcNv3kUAAAAADOfLI5yx-LkuDk-9UQ4DzDUFK1M', {action: 'action_name'})
+			.then(function(token) {
+				form_gc = token;
+			});
+		});
+	</script>
+</head>
+<body>
+	
+		
+	<div class="b-head">
+		<div class="b-head-i">
+			
+			<div class="b-head__logo"><a href="#intro" class="js-menu-link"><img src="images/logo.png" alt="" class="b-head__logo-i" /></a></div>
+			<div class="b-head__menu-ctrl"></div>
+			<div class="b-head__menu-close"></div>
+			<div class="b-head__menu">
+				<div class="b-head__menu-i">
+					<ul class="b-head__menu__list">
+						<li class="b-head__menu__list__item"><a href="#intro" class="b-head__menu__list__item-i js-menu-link"></a></li>
+						<li class="b-head__menu__list__item"><a href="#apps" class="b-head__menu__list__item-i js-menu-link" tkey="menu-1">1Приложения</a>
+						<li class="b-head__menu__list__item"><a href="#about" class="b-head__menu__list__item-i js-menu-link" tkey="menu-2">Компания</a></li>
+						<li class="b-head__menu__list__item"><a href="#contacts" class="b-head__menu__list__item-i js-menu-link" tkey="menu-3">Контакты</a></li>
+					</ul>
+					<div class="b-head__menu__language b-head__menu__language_rus">
+						<div class="b-head__menu__language__item b-head__menu__language__item_rus">rus</div>
+						<div class="b-head__menu__language__item b-head__menu__language__item_eng">eng</div>
+						<div class="b-head__menu__language__current"></div>
+					</div>
+				</div>
+			</div>
+			<!-- /.b-head__menu -->
+			
+		</div>
+	</div>
+	<!-- /.b-head -->
+	
+	
+	<ol class="b-curtains">
+		
+		<li class="b-curtains__item b-curtains__item_intro" id="intro">
+		
+			<div class="b-intro">
+				<div class="b-intro-i">
+					
+					<div data-fade="450">
+						<div class="b-intro__welcome">
+							<span class="b-intro__welcome__title"><span class="b-intro__welcome__title-i" tkey="intro-title">Всем привет!</span></span>
+						</div>
+						<div class="b-intro__about">
+							<span class="b-intro__about__text"><span class="b-intro__about__text-i" tkey="intro-description">Мы — incrdbl mobile entertainment и&nbsp;мы делаем увлекательные игры и&nbsp;развлекательные приложения для&nbsp;мобильных и&nbsp;социальных сетей.</span></span>
+						</div>
+						<div class="b-intro__stats">
+							<span class="b-intro__stats__text">
+								<span class="b-intro__stats__text-i" tkey="intro-stats">Их скачали и&nbsp;установили уже 7 705 097 человек по всему миру. И&nbsp;это только начало...</span>
+							</span>
+						</div>
+					</div>
+				
+					<div class="b-intro__apps">
+						<ul class="b-intro__apps-i">
+							<li class="b-intro__apps__item"><a href="https://play.google.com/store/apps/developer?id=Incrdbl%20Mobile%20Entertainment&hl=ru" class="b-intro__apps__item-i"><img src="images/icon-gp_big.png" alt="" class="b-intro__apps__item__icon" /><span tkey="intro-btn-gp">Наши приложения в&nbsp;Google Play</span></a></li>
+							<li class="b-intro__apps__item"><a href="https://itunes.apple.com/ru/developer/incrdbl-mobile-entertainment/id454985550" class="b-intro__apps__item-i"><img src="images/icon-as_big.png" alt="" class="b-intro__apps__item__icon" /><span tkey="intro-btn-as">Наши приложения в&nbsp;App Store</span></a></li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+			<!-- /.b-intro -->
+		
+		</li>	
+		
+		
+		<li class="b-curtains__item b-curtains__item_app" id="apps">
+						
+			<div class="b-app b-app_wbw">
+				<div class="b-app-i">
+					<div class="b-app__icon">
+						<div class="b-app__icon-i">
+							<img src="images/icon-wbw.png" alt="" class="b-app__icon__img" />
+						</div>
+					</div>
+					<div class="b-app__name">
+						<span class="b-app__name-i">
+							<span class="b-app__name__text"><span class="b-app__name__text-i" tkey="app-wbw-title">Слово за слово</span></span>
+						</span>
+					</div>
+					<div class="b-app__url">
+						<div class="b-app__url-i">
+							<span class="b-app__url__text"><a href="http://wordbyword.me/" class="b-app__url__text-i">www.wordbyword.me</a></span>
+						</div>
+					</div>
+					
+					<div class="b-app__description">
+						<div class="b-app__description-i">
+							<p class="b-app__description__title" tkey="app-wbw-description-title">Увлекательные дуэли на&nbsp;словах</p>
+							<p class="b-app__description__text" tkey="app-wbw-description-text">Сразись с&nbsp;друзьями — найди за&nbsp;2&nbsp;минуты максимальное количество слов на&nbsp;поле и&nbsp;стань «Повелителем Слов».</p>
+						</div>
+					</div>
+					
+					<div class="b-app__ss">
+						<div class="b-app__ss-i">
+							<div class="b-app__ss__list">
+								<div class="b-app__ss__list-i cycle-slideshow" id="wbw-ss"
+								data-cycle-fx="scrollHorz"
+								data-cycle-timeout="0"
+								data-cycle-pager="#wbw-ss-ctrl"
+								data-cycle-next="#wbw-ss"
+								data-cycle-pager-template="">
+									<img src="images/wbw-1.jpg" alt="" class="b-app__ss__list__item" />
+									<img src="images/wbw-2.jpg" alt="" class="b-app__ss__list__item" />
+									<img src="images/wbw-3.jpg" alt="" class="b-app__ss__list__item" />
+								</div>
+							</div>
+						</div>
+						<div class="b-app__ss__ctrl">
+							<ul class="b-app__ss__ctrl-i" id="wbw-ss-ctrl">
+								<li class="b-app__ss__ctrl__item"><a class="b-app__ss__ctrl__item-i"></a></li>
+								<li class="b-app__ss__ctrl__item"><a class="b-app__ss__ctrl__item-i"></a></li>
+								<li class="b-app__ss__ctrl__item"><a class="b-app__ss__ctrl__item-i"></a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="b-app__comments">
+						<p class="b-app__comments__title" tkey="app-comments-title">Отзывы пользователей</p>
+						
+						<div class="b-app__comments__item">
+							<div class="b-app__comments__item-i">
+								<div class="b-app__comments__item__raiting"><img src="images/raiting-5.png" alt="" class="b-app__comments__item__raiting-i" /></div>
+								<div class="b-app__comments__item__text" tkey="app-wbw-comment-1-text">Отлично тренирует память, внимательность, расширяет словарный запас.</div>
+								<p class="b-app__comments__item__sign">— Natalia V</p>
+							</div>
+						</div>
+						
+						<div class="b-app__comments__item">
+							<div class="b-app__comments__item-i">
+								<div class="b-app__comments__item__raiting"><img src="images/raiting-4.png" alt="" class="b-app__comments__item__raiting-i" /></div>
+								<div class="b-app__comments__item__text" tkey="app-wbw-comment-2-text">Занимательная, оригинальная игра. Хороший МП. Из минусов: 2 мин. совсем уж не хватает.</div>
+								<p class="b-app__comments__item__sign">— V1r2l-chumanov</p>
+							</div>
+						</div>
+						
+						<div class="b-app__comments__all">
+							<ul class="b-app__comments__all-i">
+								<li class="b-app__comments__all__item"><a href="https://itunes.apple.com/ru/app/slovo-za-slovo-igra-v-slova/id654661008?mt=8" class="b-app__comments__all__item-i" tkey="app-comments-btn-as">Отзывы в App Store</a></li>
+								<li class="b-app__comments__all__item"><a href="https://play.google.com/store/apps/details?id=me.incrdbl.android.wordbyword&hl=ru" class="b-app__comments__all__item-i" tkey="app-comments-btn-gp">Отзывы в Google Play</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="b-app__install">
+						<p class="b-app__install__title" tkey="app-intall-title">Доступно на платформах:</p>
+						<ul class="b-app__install-i">
+							<li class="b-app__install__item b-app__install__item_as"><a href="https://itunes.apple.com/ru/app/slovo-za-slovo-igra-v-slova/id654661008?mt=8" class="b-app__install__item-i"></a></li>
+							<li class="b-app__install__item b-app__install__item_gp"><a href="https://play.google.com/store/apps/details?id=me.incrdbl.android.wordbyword&hl=ru" class="b-app__install__item-i"></a></li>
+							<li class="b-app__install__item b-app__install__item_vk"><a href="https://vk.com/app4670469_91096613" class="b-app__install__item-i"></a></li>
+							<li class="b-app__install__item b-app__install__item_ok"><a href="https://ok.ru/game/wordbyword" class="b-app__install__item-i"></a></li>
+							<li class="b-app__install__item b-app__install__item_fb"><a href="https://www.facebook.com/wordbword" class="b-app__install__item-i"></a></li>
+							<li class="b-app__install__item b-app__install__item_mm"><a href="https://my.mail.ru/apps/732824" class="b-app__install__item-i"></a></li>
+							<li class="b-app__install__item b-app__install__item_fs"><a href="https://fotostrana.ru/app/wordbyword/" class="b-app__install__item-i"></a></li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+			<!-- /.b-app -->
+			
+			<div class="b-app b-app_odd b-app_vc" id="vc">
+				<div class="b-app-i">
+					<div class="b-app__icon">
+						<div class="b-app__icon-i">
+							<img src="images/icon-vc.png" alt="" class="b-app__icon__img" />
+						</div>
+					</div>
+					<div class="b-app__name">
+						<span class="b-app__name-i">
+							<span class="b-app__name__text"><span class="b-app__name__text-i">VoiceCards.ru</span></span>
+						</span>
+					</div>
+					<div class="b-app__url">
+						<div class="b-app__url-i">
+							<span class="b-app__url__text"><a href="http://www.voicecards.ru/" class="b-app__url__text-i">www.voicecards.ru</a></span>
+						</div>
+					</div>
+					
+					<div class="b-app__description">
+						<div class="b-app__description-i">
+							<p class="b-app__description__title" tkey="app-vc-description-title">Оригинальные поздравления <br /> с&nbsp;доставкой на&nbsp;мобильный</p>
+							<p class="b-app__description__text" tkey="app-vc-description-text">Более 7&nbsp;лет на&nbsp;всех мобильных телефонах страны, свыше 10&nbsp;миллионов поздравлений доставлено</p>
+						</div>
+					</div>
+					
+					<div class="b-app__ss">
+						<div class="b-app__ss-i">
+							<div class="b-app__ss__list">
+								<div class="b-app__ss__list-i cycle-slideshow" id="vc-ss" 
+									data-cycle-fx="scrollHorz"
+									data-cycle-timeout="0"
+									data-cycle-pager="#vc-ss-ctrl"
+									data-cycle-next="#vc-ss"
+									data-cycle-pager-template="">
+									<img src="images/vc-1.jpg" alt="" class="b-app__ss__list__item" />
+									<img src="images/vc-2.jpg" alt="" class="b-app__ss__list__item" />
+									<img src="images/vc-3.jpg" alt="" class="b-app__ss__list__item" />
+								</div>
+							</div>
+						</div>
+						<div class="b-app__ss__ctrl">
+							<ul class="b-app__ss__ctrl-i" id="vc-ss-ctrl">
+								<li class="b-app__ss__ctrl__item"><a class="b-app__ss__ctrl__item-i"></a></li>
+								<li class="b-app__ss__ctrl__item"><a class="b-app__ss__ctrl__item-i"></a></li>
+								<li class="b-app__ss__ctrl__item"><a class="b-app__ss__ctrl__item-i"></a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="b-app__comments">
+						<p class="b-app__comments__title" tkey="app-comments-title">Отзывы пользователей</p>
+						
+						<div class="b-app__comments__item">
+							<div class="b-app__comments__item-i">
+								<div class="b-app__comments__item__raiting"><img src="images/raiting-5.png" alt="" class="b-app__comments__item__raiting-i" /></div>
+								<div class="b-app__comments__item__text" tkey="app-vc-comment-1-text">Разыграла друга, как только он мог повестись на это!;))) не ожидала!) он даже орал на голос розыгрыша! У нас была истерика!;)))</div>
+								<p class="b-app__comments__item__sign">— Hati-Hati Natali</p>
+							</div>
+						</div>
+						
+						<div class="b-app__comments__item">
+							<div class="b-app__comments__item-i">
+								<div class="b-app__comments__item__raiting"><img src="images/raiting-4.png" alt="" class="b-app__comments__item__raiting-i" /></div>
+								<div class="b-app__comments__item__text" tkey="app-vc-comment-2-text">Штука очень хорошая первый звонок бесплатный но потом надо платить.</div>
+								<p class="b-app__comments__item__sign">— ProExtreme</p>
+							</div>
+						</div>
+						
+						<div class="b-app__comments__all">
+							<ul class="b-app__comments__all-i">
+								<li class="b-app__comments__all__item"><a href="https://itunes.apple.com/ru/app/original-nye-pozdravlenia/id454985547?mt=8" class="b-app__comments__all__item-i" tkey="app-comments-btn-as">Отзывы в App Store</a></li>
+								<li class="b-app__comments__all__item"><a href="https://play.google.com/store/apps/details?id=me.incrdbl.voicecards&hl=ru" class="b-app__comments__all__item-i" tkey="app-comments-btn-gp">Отзывы в Google Play</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="b-app__install">
+						<p class="b-app__install__title" tkey="app-intall-title">Доступно на платформах:</p>
+						<ul class="b-app__install-i">
+							<li class="b-app__install__item b-app__install__item_as"><a href="https://itunes.apple.com/ru/app/original-nye-pozdravlenia/id454985547?mt=8" class="b-app__install__item-i"></a></li>
+							<li class="b-app__install__item b-app__install__item_gp"><a href="https://play.google.com/store/apps/details?id=me.incrdbl.voicecards&hl=ru" class="b-app__install__item-i"></a></li>
+							<li class="b-app__install__item b-app__install__item_vk"><a href="https://vk.com/app1799578_91096613" class="b-app__install__item-i"></a></li>
+							<li class="b-app__install__item b-app__install__item_ok"><a href="https://ok.ru/game/voicecards" class="b-app__install__item-i"></a></li>
+							<li class="b-app__install__item b-app__install__item_wb"><a href="http://www.voicecards.ru" class="b-app__install__item-i"></a></li>
+							<li class="b-app__install__item b-app__install__item_gc"><a href="https://chrome.google.com/webstore/detail/праздники-voicecardsru/acfnkjcdcgmlhbhdoidfhecadjcmjjkk?hl=ru" class="b-app__install__item-i"></a></li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+			<!-- /.b-app -->
+			
+			
+			<div class="b-app b-app_rifmator" id="rifmator">
+				<div class="b-app-i">
+					<div class="b-app__icon">
+						<div class="b-app__icon-i">
+							<img src="images/icon-rifmator.png" alt="" class="b-app__icon__img" />
+						</div>
+					</div>
+					<div class="b-app__name">
+						<span class="b-app__name-i">
+							<span class="b-app__name__text"><span class="b-app__name__text-i" tkey="app-rifmator-title">Рифматор</span></span>
+						</span>
+					</div>
+					<div class="b-app__url">
+						<div class="b-app__url-i">
+							<span class="b-app__url__text"><a href="http://www.rifmator.ru/" class="b-app__url__text-i">www.rifmator.ru</a></span>
+						</div>
+					</div>
+					
+					<div class="b-app__description">
+						<div class="b-app__description-i">
+							<p class="b-app__description__title" tkey="app-rifmator-description-title">Поэтом можешь ты не&nbsp;быть…</p>
+							<p class="b-app__description__text" tkey="app-rifmator-description-text">потому что мы создали «Рифматор», который напишет уникальное поздравление в&nbsp;стихах к&nbsp;любому празднику!</p>
+						</div>
+					</div>
+					
+					<div class="b-app__ss">
+						<div class="b-app__ss-i">
+							<div class="b-app__ss__list">
+								<div class="b-app__ss__list-i cycle-slideshow" id="rifmator-ss"
+								data-cycle-fx="scrollHorz"
+								data-cycle-timeout="0"
+								data-cycle-pager="#rifmator-ss-ctrl"
+								data-cycle-next="#rifmator-ss"
+								data-cycle-pager-template="">
+									<img src="images/rifmator-1.jpg" alt="" class="b-app__ss__list__item" />
+									<img src="images/rifmator-2.jpg" alt="" class="b-app__ss__list__item" />
+									<img src="images/rifmator-3.jpg" alt="" class="b-app__ss__list__item" />
+								</div>
+							</div>
+						</div>
+						<div class="b-app__ss__ctrl">
+							<ul class="b-app__ss__ctrl-i" id="rifmator-ss-ctrl">
+								<li class="b-app__ss__ctrl__item"><a class="b-app__ss__ctrl__item-i"></a></li>
+								<li class="b-app__ss__ctrl__item"><a class="b-app__ss__ctrl__item-i"></a></li>
+								<li class="b-app__ss__ctrl__item"><a class="b-app__ss__ctrl__item-i"></a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="b-app__comments">
+						<p class="b-app__comments__title" tkey="app-comments-title">Отзывы пользователей</p>
+						
+						<div class="b-app__comments__item">
+							<div class="b-app__comments__item-i">
+								<div class="b-app__comments__item__raiting"><img src="images/raiting-5.png" alt="" class="b-app__comments__item__raiting-i" /></div>
+								<div class="b-app__comments__item__text" tkey="app-rifmator-comment-1-text">Так здорово, за считанные секунды персонализированное стихотворение для друзей или близких!</div>
+								<p class="b-app__comments__item__sign">— Romashka85</p>
+							</div>
+						</div>
+						
+						<div class="b-app__comments__item">
+							<div class="b-app__comments__item-i">
+								<div class="b-app__comments__item__raiting"><img src="images/raiting-4.png" alt="" class="b-app__comments__item__raiting-i" /></div>
+								<div class="b-app__comments__item__text" tkey="app-rifmator-comment-2-text">Хорошее приложение! Еще бы профессий побольше и чтоб в одноклассники отсылать.</div>
+								<p class="b-app__comments__item__sign">— Goshanivich</p>
+							</div>
+						</div>
+						
+						<div class="b-app__comments__all">
+							<ul class="b-app__comments__all-i">
+								<li class="b-app__comments__all__item"><a href="https://itunes.apple.com/ru/app/rifmator-pozdravlenia-s-dnem/id631939691?mt=8" class="b-app__comments__all__item-i" tkey="app-comments-btn-as">Отзывы в App Store</a></li>
+								<li class="b-app__comments__all__item g-hidden"><a href="#" class="b-app__comments__all__item-i" tkey="app-comments-btn-gp">Отзывы в GooglePlay</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="b-app__install">
+						<p class="b-app__install__title" tkey="app-intall-title">Доступно на платформах:</p>
+						<ul class="b-app__install-i">
+							<li class="b-app__install__item b-app__install__item_as"><a href="https://itunes.apple.com/ru/app/rifmator-pozdravlenia-s-dnem/id631939691?mt=8" class="b-app__install__item-i"></a></li>
+							<li class="b-app__install__item b-app__install__item_vk"><a href="https://vk.com/app1831936" class="b-app__install__item-i"></a></li>
+							<li class="b-app__install__item b-app__install__item_ok"><a href="https://ok.ru/app/rifmator" class="b-app__install__item-i"></a></li>
+							<li class="b-app__install__item b-app__install__item_wb"><a href="http://www.rifmator.ru" class="b-app__install__item-i"></a></li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+			<!-- /.b-app -->
+			
+		</li>
+		
+		
+		<li class="b-curtains__item b-curtains__item_about" id="about">
+		
+			<div class="b-about">
+				<div class="b-about-i">
+					
+					<div class="b-about__bd">
+						<div class="b-about__bd-i"></div>
+					</div>
+					<div class="b-about__title">
+						<span class="b-about__title-i">
+							<span class="b-about__title__text"><span class="b-about__title__text-i" tkey="about-title">Компания</span></span>
+						</span>
+					</div>
+					<div class="b-about__img"><img src="images/about-img.jpg" alt="" class="b-about__img-i" /></div>
+					
+					<div class="b-about__intro">
+						<span class="b-about__intro__text"><span class="b-about__intro__text-i" tkey="about-text">Мы команда молодых профессионалов...</span></span>
+					</div>
+					<div class="b-about__description">
+						<span class="b-about__description__text">
+							<span class="b-about__description__text-i" tkey="about-description">...очень хотелось бы начать этот текст так, но некоторым из нас уже за 40. Хотя молодых все-таки больше.
+Но невзирая на возраст — мы действительно команда профессионалов и занимаемся  любимым делом:
+мы делаем игры, в которые сами бы хотели играть.</span>
+						</span>
+					</div>
+					
+					<div class="b-about__slider">
+						<div class="b-about__slider-i">
+							<div class="b-about__slider__list">
+								<div class="b-about__slider__list-i">
+									<img src="images/about-pic.jpg" alt="" class="b-about__slider__list__item" />
+								</div>
+							</div>
+						</div>
+						<div class="b-about__slider__ctrl">
+							<ul class="b-about__slider__ctrl-i">
+								<li class="b-about__slider__ctrl__item b-about__slider__ctrl__item_current"><a href="#" class="b-about__slider__ctrl__item-i"></a></li>
+								<li class="b-about__slider__ctrl__item"><a href="#" class="b-about__slider__ctrl__item-i"></a></li>
+								<li class="b-about__slider__ctrl__item"><a href="#" class="b-about__slider__ctrl__item-i"></a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="b-about__vacancies">
+						<div class="b-about__vacancies__title">
+							<span class="b-about__vacancies__title__text"><span class="b-about__vacancies__title__text-i" tkey="about-vacancies-title">Работа у нас</span></span>
+						</div>
+						<p class="b-about__vacancies__intro" tkey="about-vacancies-text">Мы рады видеть в нашей команде талантливых и активных людей любого возраста и пола. Если вы один из них, мечтаете сделать карьеру в разработке игр и хотите предложить нам свою кандидатуру — присылайте свое резюме с рассказом о себе нам по электронной почте или откликнитесь на одну из опубликованных вакансий.</p> 
+						
+						
+						<div class="b-about__vacancies__list">
+							<ul class="b-about__vacancies__list-i">
+																<li class="b-about__vacancies__list__item">
+									<p class="b-about__vacancies__list__item__title"><a href="https://nn.hh.ru/vacancy/30174169" class="b-about__vacancies__list__item__title-i" tkey="about-vacancies-item-title" target="_blank">Разработчик iOS приложений</a></p>
+									<p class="b-about__vacancies__list__item__text" tkey="about-vacancies-item-text">
+									Сейчас мы ищем в команду второго разработчика iOS приложений.</p>
+								</li>
+								<li class="b-about__vacancies__list__item">
+									<p class="b-about__vacancies__list__item__title"><a href="https://nn.hh.ru/vacancy/29305028" class="b-about__vacancies__list__item__title-i" tkey="about-vacancies-item-title2" target="_blank">Специалист Q&A</a></p>
+									<p class="b-about__vacancies__list__item__text" tkey="about-vacancies-item-text2">Мы ищем тестировщика наших мобильных приложений и веб-сервисов. Если Вы внимательны, умны и легко замечаете баги – срочно свяжитесь с нами.</p>
+								</li>
+								<li class="b-about__vacancies__list__item">
+									<p class="b-about__vacancies__list__item__title"><a href="https://nn.hh.ru/vacancy/30161211" class="b-about__vacancies__list__item__title-i" tkey="about-vacancies-item-title3" target="_blank">Senior Back-End Developer</a></p>
+									<p class="b-about__vacancies__list__item__text" tkey="about-vacancies-item-text3">У нас своя команда разработчиков, back-end часть которой сейчас нужно пополнить сильным специалистом.</p>
+								</li>
+																															</ul>
+						</div>
+																	</div>
+					
+				</div>
+			</div>
+			<!-- /.b-about -->
+		
+		</li>
+		
+		
+		<li class="b-curtains__item b-curtains__item_contacts" id="contacts">
+		
+			<div class="b-contacts">
+				<div class="b-contacts-i">
+					
+					<div class="b-contacts__bd">
+						<div class="b-contacts__bd-i"></div>
+					</div>
+					<div class="b-contacts__title">
+						<span class="b-contacts__title-i">
+							<span class="b-contacts__title__text"><span class="b-contacts__title__text-i" tkey="contacts-title">Контакты</span></span>
+						</span>
+					</div>
+					
+					<div class="b-contacts__form">
+						<form action="/mail.php" class="b-contacts__form-i" id="contact_form">
+							<p class="b-contacts__form__intro" tkey="contacts-form-intro">Привет, incrdbl,</p>
+							<div class="b-contacts__form__field b-contacts__form__field_name">
+								<label for="" class="b-contacts__form__field__label" tkey="contacts-form-name">меня зовут:</label>
+								<input type="text" name="form_name" id="form_name" class="b-contacts__form__field__input" />
+							</div>
+							<div class="b-contacts__form__field b-contacts__form__field_text">
+								<label for="" class="b-contacts__form__field__label" tkey="contacts-form-text">и я очень хочу с вами обсудить:</label>
+								<textarea name="form_text" id="form_text" class="b-contacts__form__field__text"></textarea>
+							</div>
+							<div class="b-contacts__form__field b-contacts__form__field_email">
+								<label for="" class="b-contacts__form__field__label" tkey="contacts-form-email">пожалуйста, свяжитесь со мной по e-mail:</label>
+								<input type="text" name="form_email" id="form_email" class="b-contacts__form__field__input" />
+							</div>
+							<div class="b-contacts__form__field b-contacts__form__field_phone">
+								<label for="" class="b-contacts__form__field__label" tkey="contacts-form-phone">или по телефону:</label>
+								<input type="text" name="form_tel" id="form_tel" class="b-contacts__form__field__input" />
+							</div>
+							
+														 
+							 
+																												<div class="b-contacts__form__submit" tkey="contacts-form-submit"><input type="submit" id="form_submit" value="Отправить" class="b-contacts__form__submit-i" /></div>
+						</form>
+					</div>
+					
+					<div class="b-contacts__list">
+						<p class="b-contacts__list__title"><span class="b-contacts__list__title-i" tkey="contacts-support-title">Поддержка пользователей</span></p>
+						<p class="b-contacts__list__item">support@incrdbl.me</p>
+						
+						<p class="b-contacts__list__title"><span class="b-contacts__list__title-i" tkey="contacts-collaboration-title">Сотрудничество</span></p>
+						<p class="b-contacts__list__item">adv@incrdbl.me</p>
+					</div>
+					
+					<div class="b-contacts__info">
+						<p class="b-contacts__social__label"><span class="b-contacts__social__label-i" tkey="contacts-info-title">Контактная информация</span></p>
+						<ul class="b-contacts__info-i">
+							<li class="b-contacts__info__item" tkey="contacts-info-name">ООО «Инкредибл мобайл энтертаймент»</li>
+							<li class="b-contacts__info__item" tkey="contacts-info-address">603136, РФ, г.&nbsp;Нижний Новгород, ул.&nbsp;Академика Сахарова, д.&nbsp;4, оф.&nbsp;316</li>
+							<li class="b-contacts__info__item" tkey="contacts-info-phone">Телефон: +7 (831) 261-75-89</li>
+							<li class="b-contacts__info__item" tkey="contacts-info-email">Email: <a class="b-contacts__info__item__link" href="mailto:office@incrdbl.me">office@incrdbl.me</a></li>
+							<li class="b-contacts__info__item" tkey="contacts-info-ogrn">ОГРН: 1055238058303</li>
+						</ul>
+					</div>
+					
+					<div class="b-contacts__social g-hidden">
+						<p class="b-contacts__social__label"><span class="b-contacts__social__label-i">Следите за нами</span></p>
+						<ul class="b-contacts__social-i">
+							<li class="b-contacts__social__item"><a href="#"><img src="images/icon-vk.png" alt="" class="b-contacts__social__item-i" /></a></li>
+							<li class="b-contacts__social__item"><a href="#"><img src="images/icon-fb.png" alt="" class="b-contacts__social__item-i" /></a></li>
+							<li class="b-contacts__social__item"><a href="#"><img src="images/icon-yt.png" alt="" class="b-contacts__social__item-i" /></a></li>
+							<li class="b-contacts__social__item"><a href="#"><img src="images/icon-in.png" alt="" class="b-contacts__social__item-i" /></a></li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+			<!-- /.b-contacts -->
+		
+		</li>
+		
+	</ol>
+	<!-- /.b-curtains -->
+	
+	<div class="b-cover g-hidden"></div>
+	<!-- /.b-cover -->	
+	
+	<div class="b-popup g-hidden">
+	    <a class="b-popup__close"></a>
+    	<div class="b-popup-i">
+    		<div class="b-popup__text"></div>
+    	</div>
+    </div>
+    <!-- /.b-popup -->
+	
+</body>
+</html>
